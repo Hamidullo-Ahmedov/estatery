@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Estatery</title>
 
   <!-- Normalize CSS -->
-  <link rel="stylesheet" href="./styles/normalize.css">
+  <!-- <link rel="stylesheet" href="./styles/normalize.css"> -->
 
   <!-- Main CSS -->
-  <link rel="stylesheet" href="./styles/main.css">
+  <!-- <link rel="stylesheet" href="./styles/main.css"> -->
 
   <!-- <link rel="stylesheet" href="./styles/min.css"> -->
+
+  <link rel="stylesheet" href="./styles/main.min.css">
 
 </head>
 <body>
@@ -23,32 +25,51 @@
       <div class="header-wrapper">
         <a class="site-logo" href="./index.html">
           <img class="logo-img"
-          width=""
-          height=""
-          src="" alt="">
+          width="134"
+          height="40"
+          src="./images/logo-min.svg" alt="site logo">
         </a>
         <nav class="navbar">
           <ul class="navbar-list">
             <li class="navbar-item">
-              <a href="#">
-
+              <a class="navbar-link" href="#">
+                Rent
               </a>
             </li>
             <li class="navbar-item">
-              <a href="#">
-
+              <a class="navbar-link" href="#">
+                Buy
               </a>
             </li>
             <li class="navbar-item">
-              <a href="#">
-
+              <a class="navbar-link" href="#">
+                Sell
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#">
+                Manage Property
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#">
+                Resources
               </a>
             </li>
           </ul>
         </nav>
-        <a class="sign-up" href="#">
-
-        </a>
+        <ul class="log-in-list">
+          <li class="log-in-item">
+            <a class="log-in-link" href="#">
+              Login
+            </a>
+          </li>
+          <li class="log-in-item">
+            <a class="log-in-link sign-up" href="#">
+              Sign up
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </header>
@@ -64,12 +85,610 @@
     <section class="hero">
       <div class="container">
         <div class="hero-wrapper">
-
+          <div class="hero-content-wrapper">
+            <div class="hero-inner">
+              <h1 class="hero-title">
+                Buy, rent, or sell your property easily
+              </h1>
+              <div class="hero-desc-wrapper">
+                <p class="hero-desc">
+                  A great platform to buy, sell, or even rent your properties without any
+                  commisions.
+                </p>
+              </div>
+            </div>
+            <ul class="cell-list">
+              <li class="cell-item">
+                <a class="cell-link" href="#">
+                  Rent  
+                </a>
+              </li>
+              <li class="cell-item">
+                <a class="cell-link" href="#">
+                  Buy  
+                </a>
+              </li>
+              <li class="cell-item">
+                <a class="cell-link" href="#">
+                  Sell  
+                </a>
+              </li>
+            </ul>
+            <ul class="address-list">
+              <li class="address-item">
+                <span class="address-status">
+                  Location
+                </span>
+                <strong class="address">
+                  Barcelona, Spain
+                </strong>
+              </li>
+              <li class="address-item">
+                <span class="address-status">
+                  When
+                </span>
+                <strong class="address address-date">
+                  Select Move-in Date
+                </strong>
+              </li>
+              <li class="address-item address-button">
+                <button type="submit" class="address-submit">
+                  Browse Properties
+                </button>
+              </li>
+            </ul>
+            <ul class="statistic-list">
+              <li class="statistic-item">
+                <strong class="statistic-name">
+                  50k+ renters
+                </strong>
+                <span class="statistic-quote">
+                  believe in our service
+                </span>
+              </li>
+              <li class="statistic-item">
+                <strong class="statistic-name">
+                  10k+ properties
+                </strong>
+                <span class="statistic-quote">
+                  and house ready for occupancy
+                </span>
+              </li>
+            </ul>
+            <div class="customer-wrapper">
+              <div class="customer-content-wrapper">
+                <div class="customer-inner">
+                  <strong class="customer-name">
+                    Manuel Villa
+                  </strong>
+                  <p class="customer-status">
+                    Renter
+                  </p>
+                  <span class="customer-act">
+                    Moved with
+                  </span>
+                </div>
+              </div>
+              <div class="customer-opinion-wrapper">
+                <blockquote class="customer-opinion">
+                  I loved how smooth the move was, and finally got the house we wanted.
+                </blockquote>
+              </div>
+              <ul class="customer-price-list">
+                <li class="customer-price-item">
+                  <strong class="customer-price">
+                    $1,500
+                  </strong>
+                  <span class="price-status">
+                    Saved up to
+                  </span>
+                </li>
+                <li class="customer-price-item">
+                  <time class="customer-price saved-time">
+                    -24 hrs
+                  </time>
+                  <span class="price-status time-status">
+                    Process time
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="excellent-wrapper">
+              <div class="excellent-inner">
+                <div class="excellent-inner-wrapper">
+                  <strong class="excellent-name">
+                    Excellent
+                  </strong>
+                  <a href="#">
+                    <img
+                    width="84"
+                    height="20"
+                    src="./images/trustpilot-min.svg" alt="trustpilot">
+                  </a>
+                </div>
+              </div>
+              <span class="excellent-desc">
+                From 3,264 reviews
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- hero section ends -->
+
+    <!-- find home section starts -->
+
+    <section class="find-home">
+      <div class="container">
+        <div class="find-home-wrapper">
+          <div class="find-home-content-wrapper">
+            <h2 class="find-home-title">
+              The new way to find your new home
+            </h2>
+            <p class="find-home-desc">
+              Find your dream place to live in with more than 10k+ properties listed.
+            </p>
+            <a class="find-home-link" href="#">
+              Browse Properties
+            </a>
+          </div>
+          <ul class="find-home-list">
+            <div class="find-home-item-wrapper">
+              <li class="find-home-item">
+                <h3 class="find-home-subtitle">
+                  Property Insurance
+                </h3>
+                <p class="find-home-description">
+                  We offer our customer property protection of liability coverage and insurance for their better 
+                  life.
+                </p>
+              </li>
+              <li class="find-home-item best-price">
+                <h3 class="find-home-subtitle ">
+                  Best Price
+                </h3>
+                <p class="find-home-description">
+                  Not sure what  you should be charging for your property? No need to worry, let us do the numbers 
+                  for
+                  you.
+                </p>
+              </li>
+            </div>
+            <div class="find-home-item-wrapper">
+              <li class="find-home-item lowest-comission">
+                <h3 class="find-home-subtitle">
+                  Lowest Commission
+                </h3>
+                <p class="find-home-description">
+                  You no longer have to negotiate commissions and haggle with other agents it only cost 2%!
+                </p>
+              </li>
+              <li class="find-home-item overall-control">
+                <h3 class="find-home-subtitle">
+                  Overall Control
+                </h3>
+                <p class="find-home-description">
+                  Get a virtual tour, and schedule visits before you rent or buy any properties. You get overall
+                  control.
+                </p>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- find home section ends -->
+
+    <!-- location section starts -->
+
+    <section class="location">
+      <div class="container">
+        <h2 class="location-title">
+          Based on your location
+        </h2>
+        <p class="location-desc">
+          Some of our picked properties near you location.
+        </p>
+        <div class="location-wrapper">
+          <div class="rent-content-wrapper">
+            <ul class="rent-list">
+              <li class="rent-item">
+                <a class="rent-link bigger" href="#">
+                  Rent
+                </a>
+              </li>
+              <li class="rent-item">
+                <a class="rent-link" href="#">
+                  Buy
+                </a>
+              </li>
+              <li class="rent-item">
+                <a class="rent-link" href="#">
+                  Sell
+                </a>
+              </li>
+            </ul>
+            <input class="rent-search" type="search" placeholder="Search...">
+          </div>
+          <ul class="houses-list">
+            <li class="houses-item">
+              <div class="houses-item-wrapper">
+                <img class="houses-item-img" src="./images/palm-harbor.png"
+                width="352"
+                height="251"
+                alt="this is the apartment which is named palm harbor">
+                <div class="house-status-wrapper">
+                  <span class="houses-status">
+                    POPULAR
+                  </span>
+                </div>
+                <div class="houses-price-wrapper">
+                  <div class="houses-price-inner">
+                    <span class="houses-price">
+                      $2,095
+                    </span>
+                    <small class="houses-duration">
+                      /month
+                    </small>
+                  </div>
+                  <h3 class="houses-name">
+                    Palm Harbor
+                  </h3>
+                  <p class="houses-desc">
+                    2699 Green Valley, Highland Lake, FL
+                  </p>
+                </div>
+                <ul class="houses-facility-list">
+                  <li class="houses-facility-item">
+                    3 Beds
+                  </li>
+                  <li class="houses-facility-item">
+                    2 Bathrooms
+                  </li>
+                  <li class="houses-facility-item">
+                    5x7 m²
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="houses-item">
+              <div class="houses-item-wrapper">
+                <img class="houses-item-img" src="./images/bevelriy.png"
+                width="352"
+                height="251"
+                srcset="./images/bevelriy.png 1x, ./images/bevelriy@2x.png 2x"
+                alt="this is the apartment which is named palm harbor">
+                <div class="house-status-wrapper">
+                  <span class="houses-status">
+                    POPULAR
+                  </span>
+                </div>
+                <div class="houses-price-wrapper">
+                  <div class="houses-price-inner">
+                    <span class="houses-price">
+                      $2,700
+                    </span>
+                    <small class="houses-duration">
+                      /month
+                    </small>
+                  </div>
+                  <h3 class="houses-name">
+                    Beverly Springfield
+                  </h3>
+                  <p class="houses-desc">
+                    2821 Lake Sevilla, Palm Harbor, TX
+                  </p>
+                </div>
+                <ul class="houses-facility-list">
+                  <li class="houses-facility-item">
+                    4 Beds
+                  </li>
+                  <li class="houses-facility-item">
+                    2 Bathrooms
+                  </li>
+                  <li class="houses-facility-item">
+                    6x7.5 m²
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="houses-item">
+              <div class="houses-item-wrapper">
+                <img class="houses-item-img" src="./images/ave.png"
+                width="352"
+                height="251"
+                srcset="./images/ave.png 1x, ./images/ave@2x.png 2x"
+                alt="this is the apartment which is named palm harbor">
+                <div class="house-status-wrapper">
+                  <span class="houses-status">
+                    POPULAR
+                  </span>
+                </div>
+                <div class="houses-price-wrapper">
+                  <div class="houses-price-inner">
+                    <span class="houses-price">
+                      $4,550
+                    </span>
+                    <small class="houses-duration">
+                      /month
+                    </small>
+                  </div>
+                  <h3 class="houses-name">
+                    Faulkner Ave
+                  </h3>
+                  <p class="houses-desc">
+                    909 Woodland St, Michigan, IN
+                  </p>
+                </div>
+                <ul class="houses-facility-list">
+                  <li class="houses-facility-item">
+                    4 Beds
+                  </li>
+                  <li class="houses-facility-item">
+                    3 Bathrooms
+                  </li>
+                  <li class="houses-facility-item">
+                    8x10 m²
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="houses-item">
+              <div class="houses-item-wrapper">
+                <img class="houses-item-img" src="./images/crystal.png"
+                width="352"
+                height="251"
+                srcset="./images/crystal.png 1x, ./images/crystal@2x.png 2x"
+                alt="this is the apartment which is named palm harbor">
+                <div class="house-status-wrapper">
+                  <span class="houses-status">
+                    POPULAR
+                  </span>
+                </div>
+                <div class="houses-price-wrapper">
+                  <div class="houses-price-inner">
+                    <span class="houses-price">
+                      $2,400
+                    </span>
+                    <small class="houses-duration">
+                      /month
+                    </small>
+                  </div>
+                  <h3 class="houses-name">
+                    St. Crystal
+                  </h3>
+                  <p class="houses-desc">
+                    210 US Highway, Highland Lake, FL
+                  </p>
+                </div>
+                <ul class="houses-facility-list">
+                  <li class="houses-facility-item">
+                    4 Beds
+                  </li>
+                  <li class="houses-facility-item">
+                    2 Bathrooms
+                  </li>
+                  <li class="houses-facility-item">
+                    6x8 m²
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="houses-item">
+              <div class="houses-item-wrapper">
+                <img class="houses-item-img" src="./images/cove-red.png"
+                width="352"
+                height="251"
+                srcset="./images/cove-red.png 1x, ./images/cove-red@2x.png 2x"
+                alt="this is the apartment which is named palm harbor">
+                <div class="house-status-wrapper">
+                  <span class="houses-status">
+                    POPULAR
+                  </span>
+                </div>
+                <div class="houses-price-wrapper">
+                  <div class="houses-price-inner">
+                    <span class="houses-price">
+                      $1,500
+                    </span>
+                    <small class="houses-duration">
+                      /month
+                    </small>
+                  </div>
+                  <h3 class="houses-name">
+                    Cove Red
+                  </h3>
+                  <p class="houses-desc">
+                    2243 Curlew Road, Palm Harbor, TX
+                  </p>
+                </div>
+                <ul class="houses-facility-list">
+                  <li class="houses-facility-item">
+                    2 Beds
+                  </li>
+                  <li class="houses-facility-item">
+                    1 Bathrooms
+                  </li>
+                  <li class="houses-facility-item">
+                    5x7.5 m²
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="houses-item">
+              <div class="houses-item-wrapper">
+                <img class="houses-item-img" src="./images/tarpon-bay.png"
+                width="352"
+                height="251"
+                srcset="./images/tarpon-bay.png 1x, ./images/tarpon-bay@2x.png 2x"
+                alt="this is the apartment which is named palm harbor">
+                <div class="house-status-wrapper">
+                  <span class="houses-status">
+                    POPULAR
+                  </span>
+                </div>
+                <div class="houses-price-wrapper">
+                  <div class="houses-price-inner">
+                    <span class="houses-price">
+                      $1,600
+                    </span>
+                    <small class="houses-duration">
+                      /month
+                    </small>
+                  </div>
+                  <h3 class="houses-name">
+                    Tarpon Bay
+                  </h3>
+                  <p class="houses-desc">
+                    103 Lake Shores, Michigan, IN
+                  </p>
+                </div>
+                <ul class="houses-facility-list">
+                  <li class="houses-facility-item">
+                    3 Beds
+                  </li>
+                  <li class="houses-facility-item">
+                    1 Bathrooms
+                  </li>
+                  <li class="houses-facility-item">
+                    5x7 m²
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="location-link" href="#">
+            Browse more properties
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- location section ends -->
+
+    <!-- landlord section starts -->
+
+    <section class="landlord">
+      <div class="container">
+        <div class="landlord-wrapper">
+          <div class="landlord-inner">
+            <div class="landlord-title-wrapper">
+              <h2 class="landlord-title">
+                We make it easy for <span class="landlord-title-blue">tenants</span> and <span
+                class="landlord-title-blue">landlords.</span>
+              </h2>
+            </div>
+            <div class="landlord-desc-wrapper">
+              <p class="landlord-desc">
+                Whether it’s selling your current home, getting financing, or buying a new home, we make it easy  
+                and
+                efficient. The best part? you’ll save a bunch of money and time with our services.
+              </p>
+            </div>
+          </div>
+          <ul class="landlord-list">
+            <li class="landlord-item">
+                <div class="landlord-item-wrapper">
+                  <h3 class="landlord-subtitle">
+                    Virtual home tour
+                  </h3>
+                  <p class="landlord-description">
+                    You can communicate directly with landlords and we provide you with virtual tour before you buy 
+                    or
+                    rent the property.
+                  </p>
+                </div>
+            </li>
+            <li class="landlord-item">
+                <div class="landlord-item-wrapper">
+                  <h3 class="landlord-subtitle dark-landlord-title">
+                    Find the best deal
+                  </h3>
+                  <p class="landlord-description dark-landlord-desc">
+                    Browse thousands of properties, save your favorites and set up search alerts so you don’t miss 
+                    the
+                    best home deal!
+                  </p>
+                </div>
+            </li>
+            <!-- <li class="landlord-item">
+                <div class="landlord-item-wrapper">
+                  <h3 class="landlord-subtitle">
+                    Get ready to apply
+                  </h3>
+                  <p class="landlord-description">
+                    Find your dream house? You just need to do a little to no effort and you can start move in to 
+                    your
+                    new dream home!
+                  </p>
+                </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+      <ul class="landlord-statistic-list">
+        <li class="landlord-statistic-item">
+          <div class="statistic-item-wrapper">
+            <h4 class="landlord-statistic-title">
+              7.4%
+            </h4>
+            <p class="landlord-statistic-desc">
+              Property Return Rate
+            </p>
+          </div>
+        </li>
+        <li class="landlord-statistic-item">
+          <div class="statistic-item-wrapper">
+            <h4 class="landlord-statistic-title">
+              3,856
+            </h4>
+            <p class="landlord-statistic-desc">
+              Property in Sell & Rent
+            </p>
+          </div>
+        </li>
+        <li class="landlord-statistic-item">
+          <div class="statistic-item-wrapper">
+            <h4 class="landlord-statistic-title">
+              2,540
+            </h4>
+            <p class="landlord-statistic-desc">
+              Daily Completed Transactions
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- landlord section ends -->
+
+    <!-- article part starts -->
+
+    <article class="site-article">
+      <span class="article-warning">
+        No Spam Promise
+      </span>
+      <h2 class="article-title">
+        Are you a landlord?
+      </h2>
+      <p class="article-desc">
+        Discover ways to increase your home's value and  get listed. No Spam.
+      </p>
+      <div class="article-mail-wrapper">
+        <input class="article-input" type="email" placeholder="Enter your email address">
+        <button type="submit" class="article-btn">
+          Submit
+        </button>
+      </div>
+      <p class="article-comment">
+        Join <span class="landlords-quantity">10,000+</span> other landlords in our estatery community.
+      </p>
+    </article>
+
+    <!-- article part ends -->
 
   </main>
 
@@ -80,7 +699,197 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-wrapper">
-
+        <a class="footer-site-logo" href="./index.html">
+          <img class="footer-img" src="./images/logo-min.svg"
+               width="151"
+               height="40"
+               alt="site logo">
+        </a>
+        <div class="footer-list-wrapper">
+          <ul class="footer-list">
+            <li class="footer-item">
+              <strong class="footer-subtitle">
+                SELL A HOME
+              </strong>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Request an offer
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Pricing
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Reviews
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Stories
+              </a>
+            </li>
+          </ul>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <strong class="footer-subtitle">
+                BUY, RENT AND SELL
+              </strong>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Buy and sell properties
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Rent home
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Builder trade-up
+              </a>
+            </li>
+          </ul>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <strong class="footer-subtitle">
+                ABOUT
+              </strong>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Company
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                How it works
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Contact
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Investors
+              </a>
+            </li>
+          </ul>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <strong class="footer-subtitle">
+                BUY A HOME
+              </strong>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Buy
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Finance
+              </a>
+            </li>
+          </ul>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <strong class="footer-subtitle">
+                TERMS & PRIVACY
+              </strong>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Trust & Safety
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Terms of Service
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Privacy Policy
+              </a>
+            </li>
+          </ul>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <strong class="footer-subtitle">
+                RESOURCES
+              </strong>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Blog
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Guides
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                FAQ
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#">
+                Help Center
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-social">
+      <div class="footer-social-wrapper">
+        <p class="copyright">
+          ©2021 Estatery. All rights reserved
+        </p>
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a href="https://www.facebook.com" target="_blank">
+              <img src="./images/facebook.svg"
+              width="24"
+              height="24"
+              alt="link and icon of the facebook">
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a href="https://www.instagram.com" target="_blank">
+              <img src="./images/instagram.svg"
+              width="24"
+              height="24"
+              alt="link and icon of the instagram">
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a href="https://www.twitter.com" target="_blank">
+              <img src="./images/twitter.svg"
+              width="24"
+              height="24"
+              alt="link and icon of the twitter">
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a href="https://www.linkedin.com" target="_blank">
+              <img src="./images/linkedin.svg"
+              width="24"
+              height="24"
+              alt="link and icon of the linkedin">
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </footer>
