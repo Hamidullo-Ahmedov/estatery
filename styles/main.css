@@ -72,9 +72,13 @@ img {
 
 .site-header {
   padding-block: 24px;
-  background: rgba(255, 255, 255, 0.40);
+  background-color: #13fabcaf;
   -webkit-backdrop-filter: blur(40px);
           backdrop-filter: blur(40px);
+}
+
+.site-header {
+  background-color: #13fabcaf;
 }
 
 .site-logo {
@@ -142,7 +146,7 @@ img {
 
 .sign-up{
   color: #fff;
-  background: #7065f0;
+  background-color: #0a0357;
   border-color: transparent;
 }
 
